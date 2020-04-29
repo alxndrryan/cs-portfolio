@@ -10,6 +10,10 @@ h1 {
   color: #fff;
 }
 
+h6 {
+  color: #777777;
+}
+
 a {
   text-decoration: none;
   color: #777777;
@@ -80,4 +84,7 @@ a {
 
 #footer {
   text-align: center;
+  padding: 1% 0;
+  background-color: #444249;
+  border-top: 2px solid #777777;
 }
