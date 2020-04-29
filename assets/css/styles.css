@@ -27,17 +27,11 @@ a {
 
 /* Navbar */
 
-/* #navigation {
-  background-color: #fff;
-} */
-
 .nav {
   background-color: #fff;
 }
 
 .nav-container {
-  /* padding: 0; */
-  /* width: 100%; */
   border-bottom: 3px solid;
   border-color: #777777;
   padding: 0% 7% 0%;
@@ -51,6 +45,26 @@ a {
 .custom-nav {
   border-right: 1px solid #777777;
 }
+
+.custom-toggler {
+  background-color: red;
+  color: black;
+  border-color: black;
+}
+
+.m-nav {
+  padding: 0;
+  text-align: center;
+}
+
+.m-nav-item {
+  padding: 2% 2%;
+}
+
+.m-nav-link {
+  padding: 8px 24px;
+}
+
 /* Projects */
 
 #projects {

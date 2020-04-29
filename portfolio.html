@@ -43,11 +43,11 @@
     ></script>
   </head>
   <body>
-    <!-- Navbar -->
+    <!-- Desktop Navbar -->
     <section id="navigation">
       <div class="container-fluid portfolio-container">
-        <div class="nav-container">
-          <nav class="navbar navbar-expand-lg">
+        <div class="nav-container d-none d-md-block">
+          <nav class="navbar navbar-expand-lg navbar-light">
             <h1>Alexander</h1>
             <button
               class="navbar-toggler"
@@ -74,6 +74,29 @@
               </ul>
             </div>
           </nav>
+        </div>
+
+        <!-- Mobile Navbar -->
+        <div class="container-fluid d-md-none m-nav">
+          <div class="row">
+            <div class="col"><h1>Alexander</h1></div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link m-nav-link active" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link m-nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link m-nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <!-- Projects -->
