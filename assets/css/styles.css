@@ -1,3 +1,7 @@
+body {
+  background-image: url(../images/stardust-img.png);
+}
+
 h1 {
   padding: 0px 20px 0px 20px;
   background-color: #5f6769;
