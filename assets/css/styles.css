@@ -2,6 +2,15 @@
   background-image: url(../images/stardust-img.png);
 } */
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 h1 {
   padding: 0px 20px 0px 20px;
   background-color: #5f6769;
