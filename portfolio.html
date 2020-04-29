@@ -44,316 +44,310 @@
   </head>
   <body>
     <!-- Navbar -->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-              >Disabled</a
-            >
-          </li>
-        </ul>
+    <section id="navigation">
+    <div class="container-fluid portfolio-container">
+      <div class="container-fluid nav-container">
+        <nav class="navbar navbar-expand-lg">
+          <h1>Alexander</h1>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link custom-nav" href="#">About</a>
+              </li>
+              <li class="nav-item custom-nav">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-    </nav>
-    <!-- Projects -->
+    </section>
+      <!-- Projects -->
 
-    <section>
-      <div class="container">
-        <div class="row">
-          <!-- CryptoStock -->
+      <section id="projects">
+        <div class="projects-container">
+          <div class="row">
+            <!-- CryptoStock -->
 
-          <div class="col-lg-4 col-md-6">
-            <div class="card h-100" style="width: 18rem;">
-              <div class="card-header">
-                <h5>CryptoStock</h5>
-              </div>
-              <img
-                src="assets/images/cryptostock.png"
-                class="card-img-top"
-                alt="crypostock-image"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Converts company stock value into Bitcoin
-                </p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">jQuery</li>
-                <li class="list-group-item">Materialize</li>
-                <li class="list-group-item">Alpha Vantage API</li>
-                <li class="list-group-item">CoinAPI</li>
-              </ul>
-              <div class="card-body">
-                <button
-                  class="btn btn-sm btn-dark download-button"
-                  type="button"
-                >
-                  <i class="fab fa-github-square"></i>
-                  <a
-                    href="https://github.com/alxndryn/CryptoStock"
-                    target="_blank"
-                    >GitHub</a
+            <div class="projects-col col-lg-4 col-md-6">
+              <div class="card h-100" style="width: 18rem;">
+                <div class="card-header">
+                  <h5>CryptoStock</h5>
+                </div>
+                <img
+                  src="assets/images/cryptostock.png"
+                  class="card-img-top"
+                  alt="crypostock-image"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Converts company stock value into Bitcoin
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">jQuery</li>
+                  <li class="list-group-item">Materialize</li>
+                  <li class="list-group-item">Alpha Vantage API</li>
+                  <li class="list-group-item">CoinAPI</li>
+                </ul>
+                <div class="card-body">
+                  <button
+                    class="btn btn-sm btn-dark download-button"
+                    type="button"
                   >
-                </button>
-                <button
-                  class="btn btn-sm btn-dark download-button"
-                  type="button"
-                >
-                  <i class="fab fa-chrome"></i>
-                  <a
-                    href="https://alxndryn.github.io/CryptoStock/"
-                    target="_blank"
-                    >Website</a
+                    <i class="fab fa-github-square"></i>
+                    <a
+                      href="https://github.com/alxndryn/CryptoStock"
+                      target="_blank"
+                      >GitHub</a
+                    >
+                  </button>
+                  <button
+                    class="btn btn-sm btn-dark download-button"
+                    type="button"
                   >
-                </button>
+                    <i class="fab fa-chrome"></i>
+                    <a
+                      href="https://alxndryn.github.io/CryptoStock/"
+                      target="_blank"
+                      >Website</a
+                    >
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-          <!-- Employee Summary -->
+            <!-- Employee Summary -->
 
-          <div class="col-lg-4 col-md-6">
-            <div class="card h-100" style="width: 18rem;">
-              <div class="card-header">
-                <h5>Employee Summary</h5>
-              </div>
-              <img
-                src="assets/images/employee-summary.png"
-                class="card-img-top"
-                alt="crypostock-image"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Node CLI for inputting employee information and having it
-                  displayed on a responsive web page
-                </p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Node.js</li>
-              </ul>
-              <div class="card-body">
-                <button
-                  class="btn btn-block btn-dark download-button"
-                  type="button"
-                >
-                  <i class="fab fa-github-square"></i>
-                  <a
-                    href="https://github.com/alxndryn/Template-Engine-Employee-Summary"
-                    target="_blank"
-                    >GitHub</a
+            <div class="projects-col col-lg-4 col-md-6">
+              <div class="card h-100" style="width: 18rem;">
+                <div class="card-header">
+                  <h5>Employee Summary</h5>
+                </div>
+                <img
+                  src="assets/images/employee-summary.png"
+                  class="card-img-top"
+                  alt="crypostock-image"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Node CLI for inputting employee information and having it
+                    displayed on a responsive web page
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Node.js</li>
+                </ul>
+                <div class="card-body">
+                  <button
+                    class="btn btn-block btn-dark download-button"
+                    type="button"
                   >
-                </button>
+                    <i class="fab fa-github-square"></i>
+                    <a
+                      href="https://github.com/alxndryn/Template-Engine-Employee-Summary"
+                      target="_blank"
+                      >GitHub</a
+                    >
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-          <!-- Employee Tracker -->
+            <!-- Employee Tracker -->
 
-          <div class="col-lg-4 col-md-6">
-            <div class="card h-100" style="width: 18rem;">
-              <div class="card-header">
-                <h5>Employee Tracker</h5>
-              </div>
-              <img
-                src="assets/images/employee-tracker.png"
-                class="card-img-top"
-                alt="crypostock-image"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Node.js CLI for companies to add departments, job titles, and
-                  employees
-                </p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">MySQL</li>
-                <li class="list-group-item">Node.js</li>
-              </ul>
-              <div class="card-body">
-                <button
-                  class="btn btn-block btn-dark download-button"
-                  type="button"
-                >
-                  <i class="fab fa-github-square"></i>
-                  <a
-                    href="https://github.com/alxndryn/Employee-Tracker"
-                    target="_blank"
-                    >GitHub</a
+            <div class="projects-col col-lg-4 col-md-6">
+              <div class="card h-100" style="width: 18rem;">
+                <div class="card-header">
+                  <h5>Employee Tracker</h5>
+                </div>
+                <img
+                  src="assets/images/employee-tracker.png"
+                  class="card-img-top"
+                  alt="crypostock-image"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Node.js CLI for companies to add departments, job titles,
+                    and employees
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">MySQL</li>
+                  <li class="list-group-item">Node.js</li>
+                </ul>
+                <div class="card-body">
+                  <button
+                    class="btn btn-block btn-dark download-button"
+                    type="button"
                   >
-                </button>
+                    <i class="fab fa-github-square"></i>
+                    <a
+                      href="https://github.com/alxndryn/Employee-Tracker"
+                      target="_blank"
+                      >GitHub</a
+                    >
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-          <!-- Note Taker -->
+            <!-- Note Taker -->
 
-          <div class="col-lg-4 col-md-6">
-            <div class="card h-100" style="width: 18rem;">
-              <div class="card-header">
-                <h5>Note-Taker</h5>
-              </div>
-              <img
-                src="assets/images/note-taker.png"
-                class="card-img-top"
-                alt="crypostock-image"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Used to write, save, and delete notes
-                </p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Node.js</li>
-                <li class="list-group-item">Express</li>
-                <li class="list-group-item">jQuery</li>
-              </ul>
-              <div class="card-body">
-                <button
-                  class="btn btn-sm btn-dark download-button"
-                  type="button"
-                >
-                  <i class="fab fa-github-square"></i>
-                  <a
-                    href="https://github.com/alxndryn/Note-Taker"
-                    target="_blank"
-                    >GitHub</a
+            <div class="projects-col col-lg-4 col-md-6">
+              <div class="card h-100" style="width: 18rem;">
+                <div class="card-header">
+                  <h5>Note-Taker</h5>
+                </div>
+                <img
+                  src="assets/images/note-taker.png"
+                  class="card-img-top"
+                  alt="crypostock-image"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Used to write, save, and delete notes
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Node.js</li>
+                  <li class="list-group-item">Express</li>
+                  <li class="list-group-item">jQuery</li>
+                </ul>
+                <div class="card-body">
+                  <button
+                    class="btn btn-sm btn-dark download-button"
+                    type="button"
                   >
-                </button>
-                <button
-                  class="btn btn-sm btn-dark download-button"
-                  type="button"
-                >
-                  <i class="fab fa-chrome"></i>
-                  <a
-                    href="https://murmuring-refuge-00290.herokuapp.com/"
-                    target="_blank"
-                    >Website</a
+                    <i class="fab fa-github-square"></i>
+                    <a
+                      href="https://github.com/alxndryn/Note-Taker"
+                      target="_blank"
+                      >GitHub</a
+                    >
+                  </button>
+                  <button
+                    class="btn btn-sm btn-dark download-button"
+                    type="button"
                   >
-                </button>
+                    <i class="fab fa-chrome"></i>
+                    <a
+                      href="https://murmuring-refuge-00290.herokuapp.com/"
+                      target="_blank"
+                      >Website</a
+                    >
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-          <!-- Code Quiz -->
+            <!-- Code Quiz -->
 
-          <div class="col-lg-4 col-md-6">
-            <div class="card h-100" style="width: 18rem;">
-              <div class="card-header">
-                <h5>Code Quiz</h5>
-              </div>
-              <img
-                src="assets/images/code-quiz.png"
-                class="card-img-top"
-                alt="crypostock-image"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Test your Javascript knowledge with this short quiz
-                </p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Bootstrap</li>
-                <li class="list-group-item">JavaScript</li>
-              </ul>
-              <div class="card-body">
-                <button
-                  class="btn btn-sm btn-dark download-button"
-                  type="button"
-                >
-                  <i class="fab fa-github-square"></i>
-                  <a
-                    href="https://github.com/alxndryn/Code-Quiz"
-                    target="_blank"
-                    >GitHub</a
+            <div class="projects-col col-lg-4 col-md-6">
+              <div class="card h-100" style="width: 18rem;">
+                <div class="card-header">
+                  <h5>Code Quiz</h5>
+                </div>
+                <img
+                  src="assets/images/code-quiz.png"
+                  class="card-img-top"
+                  alt="crypostock-image"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Test your Javascript knowledge with this short quiz
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Bootstrap</li>
+                  <li class="list-group-item">JavaScript</li>
+                </ul>
+                <div class="card-body">
+                  <button
+                    class="btn btn-sm btn-dark download-button"
+                    type="button"
                   >
-                </button>
-                <button
-                  class="btn btn-sm btn-dark download-button"
-                  type="button"
-                >
-                  <i class="fab fa-chrome"></i>
-                  <a
-                    href="https://alxndryn.github.io/Code-Quiz/"
-                    target="_blank"
-                    >Website</a
+                    <i class="fab fa-github-square"></i>
+                    <a
+                      href="https://github.com/alxndryn/Code-Quiz"
+                      target="_blank"
+                      >GitHub</a
+                    >
+                  </button>
+                  <button
+                    class="btn btn-sm btn-dark download-button"
+                    type="button"
                   >
-                </button>
+                    <i class="fab fa-chrome"></i>
+                    <a
+                      href="https://alxndryn.github.io/Code-Quiz/"
+                      target="_blank"
+                      >Website</a
+                    >
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-          <!-- Workday Scheduler -->
+            <!-- Workday Scheduler -->
 
-          <div class="col-lg-4 col-md-6">
-            <div class="card h-100" style="width: 18rem;">
-              <div class="card-header">
-                <h5>Workday Scheduler</h5>
-              </div>
-              <img
-                src="assets/images/workday-scheduler.png"
-                class="card-img-top"
-                alt="crypostock-image"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  A simple calendar app for scheduling your work day
-                </p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">jQuery</li>
-                <li class="list-group-item">Moment.js</li>
-              </ul>
-              <div class="card-body">
-                <button
-                  class="btn btn-sm btn-dark download-button"
-                  type="button"
-                >
-                  <i class="fab fa-github-square"></i>
-                  <a
-                    href="https://github.com/alxndryn/Work-Day-Scheduler"
-                    target="_blank"
-                    >GitHub</a
+            <div class="projects-col col-lg-4 col-md-6">
+              <div class="card h-100" style="width: 18rem;">
+                <div class="card-header">
+                  <h5>Workday Scheduler</h5>
+                </div>
+                <img
+                  src="assets/images/workday-scheduler.png"
+                  class="card-img-top"
+                  alt="crypostock-image"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    A simple calendar app for scheduling your work day
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">jQuery</li>
+                  <li class="list-group-item">Moment.js</li>
+                </ul>
+                <div class="card-body">
+                  <button
+                    class="btn btn-sm btn-dark download-button"
+                    type="button"
                   >
-                </button>
-                <button
-                  class="btn btn-sm btn-dark download-button"
-                  type="button"
-                >
-                  <i class="fab fa-chrome"></i>
-                  <a
-                    href="https://alxndryn.github.io/Work-Day-Scheduler/"
-                    target="_blank"
-                    >Website</a
+                    <i class="fab fa-github-square"></i>
+                    <a
+                      href="https://github.com/alxndryn/Work-Day-Scheduler"
+                      target="_blank"
+                      >GitHub</a
+                    >
+                  </button>
+                  <button
+                    class="btn btn-sm btn-dark download-button"
+                    type="button"
                   >
-                </button>
+                    <i class="fab fa-chrome"></i>
+                    <a
+                      href="https://alxndryn.github.io/Work-Day-Scheduler/"
+                      target="_blank"
+                      >Website</a
+                    >
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </body>
 </html>

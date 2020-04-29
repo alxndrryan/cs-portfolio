@@ -1,0 +1,57 @@
+h1 {
+  padding: 0px 20px 0px 20px;
+  background-color: #5f6769;
+  line-height: 90px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #777777;
+}
+
+/* Portfolio Page */
+
+.portfolio-container {
+  padding: 0;
+}
+
+/* Navbar */
+
+#navigation {
+  background-color: #fff;
+}
+
+.nav-container {
+  padding: 0;
+  width: 100%;
+  border-bottom: 3px solid;
+  border-color: #dddddd;
+}
+
+.navbar {
+  padding: 0% 10% 0%;
+}
+
+.custom-nav {
+  border-right: 1px solid #777777;
+}
+/* Projects */
+
+#projects {
+  padding: 25px 100px 25px;
+}
+
+.projects-container {
+  padding: 0;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.projects-col {
+  padding: 3% 2%;
+}
