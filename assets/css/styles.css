@@ -1,6 +1,6 @@
-body {
+/* body {
   background-image: url(../images/stardust-img.png);
-}
+} */
 
 h1 {
   padding: 0px 20px 0px 20px;
@@ -23,19 +23,25 @@ a {
 
 /* Navbar */
 
-#navigation {
+/* #navigation {
+  background-color: #fff;
+} */
+
+.nav {
   background-color: #fff;
 }
 
 .nav-container {
-  padding: 0;
-  width: 100%;
+  /* padding: 0; */
+  /* width: 100%; */
   border-bottom: 3px solid;
-  border-color: #dddddd;
+  border-color: #777777;
+  padding: 0% 7% 0%;
 }
 
 .navbar {
-  padding: 0% 10% 0%;
+  padding-top: 0%;
+  padding-bottom: 0;
 }
 
 .custom-nav {
@@ -48,7 +54,9 @@ a {
 }
 
 .projects-container {
-  padding: 0;
+  text-align: center;
+  padding: 3% 7% 3%;
+  background-image: url(../images/stardust-img.png);
 }
 
 .price-text {
@@ -58,4 +66,18 @@ a {
 
 .projects-col {
   padding: 3% 2%;
+}
+
+.card {
+  background-color: #dddddd;
+}
+
+.list-group-item {
+  background-color: #dddddd;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
 }
