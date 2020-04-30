@@ -31,7 +31,8 @@ a {
 /* Portfolio Page */
 
 .portfolio-container {
-  padding: 0;
+  padding: 0 0 2%;
+  background-image: url(../images/stardust-img.png);
 }
 
 /* Navbar */
@@ -43,7 +44,8 @@ a {
 .nav-container {
   border-bottom: 3px solid;
   border-color: #777777;
-  padding: 0% 7% 0%;
+  padding: 0% 19.5% 0%;
+  background-color: #fff;
 }
 
 .navbar {
@@ -82,8 +84,9 @@ a {
 
 .projects-container {
   text-align: center;
-  padding: 0% 7% 0%;
-  background-image: url(../images/stardust-img.png);
+  padding: 3% 4% 3%;
+  background-color: #fff;
+  margin: 3% auto 3%;
 }
 
 .price-text {
@@ -102,6 +105,28 @@ a {
 .list-group-item {
   background-color: #dddddd;
 }
+
+/* About Page */
+
+/* .about-page-container {
+  background-image: url(../images/stardust-img.png);
+  padding-bottom: 1%;
+} */
+
+.about-navbar {
+  background-color: #fff;
+  margin-bottom: 3%;
+}
+
+.about-me-container {
+  background-color: #fff;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+
+/* .about {
+  padding: 10%;
+} */
 
 /* Footer */
 
