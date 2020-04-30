@@ -135,6 +135,7 @@ a:hover {
 }
 
 .about-me {
+  text-align: left;
   line-height: 1.5;
   font-size: 1.5rem;
   color: #777777;
