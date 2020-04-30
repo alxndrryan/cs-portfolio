@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,700,900|Ubuntu:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/8de0cecdc7.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Desktop Navbar -->
+    <section id="navigation">
+      <div class="container-fluid portfolio-container">
+        <div class="nav-container d-none d-md-block">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <h1>Alexander</h1>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link custom-nav" href="">About</a>
+                </li>
+                <li class="nav-item custom-nav">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <!-- Mobile Navbar -->
+        <div class="container-fluid d-md-none m-nav">
+          <div class="row">
+            <div class="col"><h1>Alexander</h1></div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link custom-nav" href="">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- About Me -->
+
+        <div class="projects-container container">
+          <div class="row">
+            <div class="col">
+              <h2>About</h2>
+              <hr />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <img
+                class="profile-pic"
+                src="assets/images/profile-pic.jpg"
+                alt="profile-pic"
+              />
+
+              <p class="about-me">
+                Full-Stack Web Developer with past experience in team-oriented
+                environments acquired through work on independent film
+                production. I have since gained a certificate in Full-Stack Web
+                Development from the University of Texas at Austin where I
+                learned and built upon skills in JavaScript, HTML5, and CSS.
+              </p>
+              <p class="about-me">
+                One of my most recent group projects, Myooz, enabled users to
+                find people to go to upcoming music events with. With teamwork
+                and creativity I was able to produce a responsive and creative
+                design for the front-end. I also used my knowledge of MySQL to
+                store users and the groups they’ve created in a database.
+              </p>
+              <p class="about-me">
+                I am eager to offer my technical and collaborative skills to
+                continue creating quality web applications.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="box"></div>
+    <footer id="footer">
+      <div class="container-fluid">
+        <h6>© Copyright 2020</h6>
+      </div>
+    </footer>
+  </body>
+</html>

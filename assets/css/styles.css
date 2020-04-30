@@ -23,6 +23,12 @@ h2 {
   color: #777777;
 }
 
+h3 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: #777777;
+}
+
 h6 {
   color: #777777;
 }
@@ -30,6 +36,11 @@ h6 {
 a {
   text-decoration: none;
   color: #777777;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #444249;
 }
 
 /* Portfolio Page */
@@ -90,7 +101,7 @@ a {
   text-align: center;
   padding: 3% 4% 3%;
   background-color: #fff;
-  margin: 3% auto 3%;
+  margin: 5% auto 3%;
 }
 
 .price-text {
@@ -118,6 +129,35 @@ a {
   margin: 3% auto 3%;
 }
 
+.profile-pic {
+  float: left;
+  padding-right: 2%;
+}
+
+.about-me {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  color: #777777;
+}
+
+.box {
+  flex: 1 1 auto;
+  height: 50px;
+
+  display: flex;
+  flex-flow: column;
+  /* height: 100%; */
+}
+
+/* Contact Page */
+
+.contact-container {
+  text-align: center;
+  padding: 3% 4% 4%;
+  background-color: #fff;
+  margin: 5% auto 3%;
+}
+
 /* Footer */
 
 #footer {
@@ -125,7 +165,8 @@ a {
   padding: 1% 0;
   background-color: #444249;
   border-top: 2px solid #777777;
-
+  bottom: 0;
+  position: fixed;
   width: 100%;
 }
 
