@@ -1,6 +1,6 @@
-/* body {
+body {
   background-image: url(../images/stardust-img.png);
-} */
+}
 
 html,
 body {
@@ -19,6 +19,10 @@ h1 {
   color: #fff;
 }
 
+h2 {
+  color: #777777;
+}
+
 h6 {
   color: #777777;
 }
@@ -32,7 +36,7 @@ a {
 
 .portfolio-container {
   padding: 0 0 2%;
-  background-image: url(../images/stardust-img.png);
+  /* background-image: url(../images/stardust-img.png); */
 }
 
 /* Navbar */
@@ -108,25 +112,11 @@ a {
 
 /* About Page */
 
-/* .about-page-container {
-  background-image: url(../images/stardust-img.png);
-  padding-bottom: 1%;
-} */
-
-.about-navbar {
-  background-color: #fff;
-  margin-bottom: 3%;
-}
-
 .about-me-container {
+  padding: 3% 4% 3%;
   background-color: #fff;
-  margin-top: 4%;
-  margin-bottom: 3%;
+  margin: 3% auto 3%;
 }
-
-/* .about {
-  padding: 10%;
-} */
 
 /* Footer */
 
@@ -135,4 +125,13 @@ a {
   padding: 1% 0;
   background-color: #444249;
   border-top: 2px solid #777777;
+
+  width: 100%;
+}
+
+.fillSpace {
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
 }
